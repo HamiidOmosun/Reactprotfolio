@@ -8,7 +8,7 @@ const Resume = () => {
     <div className="bg-[#021526]">
       < Navbar/>
 
-        <div className="flex justify-end pr-5 md:pr-0 pt-5">
+        <div className="flex justify-end pr-5 pt-5 md:pr-28 lg:pr-40">
           <button className="relative inline-flex items-center gap-2 text-white text-sm md:text-xs leading-none cursor-pointer ">
             <span>DOWNLOAD</span>
             <svg
@@ -32,23 +32,39 @@ const Resume = () => {
         </div>
 
 
-      <div className='flex flex-col items-center justify-center'>
-        <h1 className="text-4xl font-black mb-4 text-white pt-10">
+      <div className='flex flex-col items-center justify-center md:px-28 md:mt-10 lg:px-40'>
+        <h1 className="text-4xl font-black mb-4 text-white pt-10 md:text-5xl lg:text-6xl">
           Omosun Hamiid
         </h1>
 
-        <div className='text-white text-center font-light'>
+        <div className='text-white text-center font-light md:text-lg lg:text-2xl'>
           <p>Expert front-end engineer and UI/UX Expert</p>
           <p className='p-1 opacity-50'>HamiidOmosun@gmail.com</p>
         </div>
 
-        <div className='bg-white h-1 w-96 mt-7 mb-6'></div>
-        <div className="flex text-white items-start w-full">
-          <div className='w-[40%] text-left text-xs pl-3 font-light'>
+        <div className='bg-white h-1 w-full mt-7 mb-6 md:mt-15 lg:mt-20'></div>
+        <div className="flex text-white items-stretch w-full">
+          <div className='w-[40%] text-left text-xs md:text-sm lg:text-lg pl-3 font-light'>
             <div className='space-y-1'>
               <p>+2347053438111</p>
-              <p>LinkedIn</p>
-              <p>Github</p>
+              <div className='flex flex-col space-y-1'>
+                <a 
+                  href="https://www.linkedin.com/in/abdulhamiid-omosun-54a8492a7?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BfqX9qvLoSaCFTw9t9QvQaQ%3D%3D" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  LinkedIn
+                </a>
+                <a 
+                  href="https://github.com/HamiidOmosun" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="hover:text-white transition-colors"
+                >
+                  Github
+                </a>
+              </div>
               <p>Porthacourt, Nigeria</p>
             </div>
 
@@ -81,9 +97,9 @@ const Resume = () => {
 
           </div>
 
-          <div className='h-screen border-1 border-white mx-4 opacity-50'></div>
+          <div className='border-1 self-stretch border-white mx-4 opacity-50'></div>
 
-          <div className='w-[70%] text-xs pr-5 font-light'>
+          <div className='w-[70%] text-xs md:text-sm lg:text-lg pr-5 font-light'>
             <p>Creative and detail-oriented Frontend Engineer with strong 
               experience building responsive web applications using React, 
               TypeScript, HTML5, and CSS3. Proven track record delivering 
@@ -97,6 +113,7 @@ const Resume = () => {
               Seeking to contribute to product-driven companies where frontend,
               tooling, and user experience matter.
             </p>
+
             <h1 className='pt-10 font-bold'>PROFESSIONAL EXPERIENCE</h1>
 
             <p className='font-semibold py-3'>Lead Frontend Engineer (Freelance)
@@ -121,12 +138,97 @@ const Resume = () => {
                 polished frontend features.
               </li>
             </ul>
+
+            <p className='font-semibold py-3'>Lead Frontend Developer — Kubanetics (2025)</p>
+            <ul className='space-y-1 list-disc list-outside px-3'>
+              <li>
+                Designed dashboard layout and full websites in figma, 
+                creating compotents for resuability.
+              </li>
+              <li>
+                Delivered animations, graphics, product photography
+                 retouching, ensuring brand consistency.
+              </li>
+            </ul>
+
+            <p className='font-semibold py-3'>Product Designer & Frontend Developer — Bizyaski 
+              (Pink Lip Balm Project) (2023 - 2024)
+            </p>
+            <ul className='space-y-1 list-disc list-outside px-3'>
+              <li>
+                Designed marketing assets, landing pages,
+                 and e-commerce UI using Figma and React.
+              </li>
+              <li>
+                Improved user engagement by redesigning product pages,
+                 optimizing layout, and enhancing visual hierarchy.
+              </li>
+              <li>
+                Delivered animations, graphics, product photography 
+                retouching, ensuring brand consistency.
+              </li>
+            </ul>
+
+            <h1 className='pt-10 font-bold'>PROJECTS & HIGHLIGHTS</h1>
+
+            <ul className='space-y-1 list-disc list-outside px-3 mt-3'>
+              <li>
+                Kira Admin Panel — Full-stack product admin dashboard; 
+                featured login/auth, data tables, role-based access, 
+                responsive layouts.
+              </li>
+              <li>
+                Primer Care Hospital Website Redesign — Optimized UI/UX,
+                 site speed, user navigation; added contact forms, 
+                 mobile-first design.
+              </li>
+              <li>
+                Food Delivery Concept App — Prototype in Figma + frontend
+                 build using React; mobile-friendly, interactive mockups.
+              </li>
+            </ul>
+
+            <h1 className='pt-10 font-bold'>EDUCATION & CERTIFICATIONS</h1>
+            <ul className='space-y-1 list-disc list-outside px-3 mt-3'>
+              <li>
+                CS50 AI — HarvardX (In Progress)
+              </li>
+              <li>
+                Certification in Python Programming — [Institution Name]
+              </li>
+              <li>
+                Data Analysis Certification — [Institution Name]
+              </li>
+              <li>
+                Web Development Program — NIIT (In Progress)
+              </li>
+              <li>
+                B.Eng Mechanical  — Micheal Okapara university
+              </li>
+            </ul>
+
+            <h1 className='pt-10 font-bold'>ADDITIONAL ACHIEVEMENTS</h1>
+            <ul className='space-y-1 list-disc list-outside px-3 mt-3'>
+              <li>
+                Led frontend work for multiple freelance projects, 
+                ensuring delivery on deadlines and client satisfaction.
+              </li>
+              <li>
+                Designed product graphics and animations that 
+                increased client conversions in marketing campaigns
+              </li>
+              <li>
+                Committed to continuous learning: participating in AI / 
+                data courses and practicing new frontend techniques regularly.
+              </li>
+            </ul>
+
               
           </div>
         </div>
 
-        <Contact/>
       </div>
+      <Contact/>
       <Footer/>
     </div>
   )
