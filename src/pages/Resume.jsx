@@ -67,12 +67,61 @@ const Resume = () => {
               <p>Python</p>
             </div>
 
+            <p className='mt-10 font-bold'>Others:</p>
+            <div className='space-y-2 mt-2'>
+              <p>Figma</p>
+              <p>UI/UX Designs</p>
+              <p>Design Systems</p>
+              <p>Responsive Designs</p>
+              <p>Animations</p>
+              <p>Graphic Designs</p>
+              <p>Data Analysis</p>
+              <p>Artificial Intelligence</p>
+            </div>
+
           </div>
 
           <div className='h-screen border-1 border-white mx-4 opacity-50'></div>
 
-          <div className='w-[70%]'>
-            <p>+2347053438111</p>
+          <div className='w-[70%] text-xs pr-5 font-light'>
+            <p>Creative and detail-oriented Frontend Engineer with strong 
+              experience building responsive web applications using React, 
+              TypeScript, HTML5, and CSS3. Proven track record delivering 
+              user-centric UIs and admin dashboards as lead frontend developer. 
+              Backed by strong foundations in Python, Data Analysis, and AI through 
+              Harvard's CS50 AI and freelance/web dev work. Skilled in collaborating 
+              with cross-functional teams, practicing Agile workflows, optimizing
+              for performance, and ensuring UX accessibility
+            </p>
+            <p className='pt-5'>
+              Seeking to contribute to product-driven companies where frontend,
+              tooling, and user experience matter.
+            </p>
+            <h1 className='pt-10 font-bold'>PROFESSIONAL EXPERIENCE</h1>
+
+            <p className='font-semibold py-3'>Lead Frontend Engineer (Freelance)
+               — Kira Admin Panel (2025 - Present)
+            </p>
+            <ul className='space-y-1 list-disc list-outside px-3'>
+              <li>
+                Architected and implemented the admin dashboard UI using 
+                React + TypeScript + Tailwind CSS.
+              </li>
+              <li>
+                Integrated RESTful APIs, managed state, and improved 
+                page load performance by ~30%
+              </li>
+              <li>
+                Ensured responsive design across devices, enhanced
+                UI consistency across components.
+              </li>
+              <li>
+                Collaborated with backend engineers, PMs, and UX 
+                designers to translate product requirements into 
+                polished frontend features.
+              </li>
+            </ul>
+              
           </div>
         </div>
 
