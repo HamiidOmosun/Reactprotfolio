@@ -35,7 +35,6 @@ const Navbar = () => {
       <div className="hidden md:flex gap-6 text-white font-semibold">
         <HashLink smooth to="/#home">Home</HashLink>
         <HashLink smooth to="/#about">About Me</HashLink>
-        <Link to="/portfolio">Projects</Link>
         <Link to="/resume">Resume</Link>
       </div>
 
@@ -44,7 +43,6 @@ const Navbar = () => {
         <div className="absolute top-16 left-0 w-full bg-[#021526] flex flex-col gap-4 pt-10 pl-5 h-screen text-white font-light md:hidden">
           <HashLink smooth to="/#home" onClick={() => setIsOpen(false)}>Home</HashLink>
         <HashLink smooth to="/#about" onClick={() => setIsOpen(false)}>About Me</HashLink>
-          <Link to="/portfolio" onClick={() => setIsOpen(false)}>Projects</Link>
           <Link to="/resume" onClick={() => setIsOpen(false)}>Resume</Link>
         </div>
       )}

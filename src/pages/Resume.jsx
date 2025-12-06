@@ -38,7 +38,7 @@ const Resume = () => {
         </h1>
 
         <div className='text-white text-center font-light md:text-lg lg:text-2xl'>
-          <p>Expert front-end engineer and UI/UX Expert</p>
+          <p>Expert fron  t-end engineer and UI/UX Expert</p>
           <p className='p-1 opacity-50'>HamiidOmosun@gmail.com</p>
         </div>
 
