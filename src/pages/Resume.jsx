@@ -1,5 +1,5 @@
 import Navbar from '../components/Navbar'
-import Contact from '../components/contact'
+import Contact from '../components/Contact'
 import Footer from '../components/footer'
 
 // src/pages/Portfolio.jsx
@@ -38,7 +38,7 @@ const Resume = () => {
         </h1>
 
         <div className='text-white text-center font-light md:text-lg lg:text-2xl'>
-          <p>Expert fron  t-end engineer and UI/UX Expert</p>
+          <p>Expert front-end engineer and UI/UX Expert</p>
           <p className='p-1 opacity-50'>HamiidOmosun@gmail.com</p>
         </div>
 
@@ -100,14 +100,7 @@ const Resume = () => {
           <div className='border-1 self-stretch border-white mx-4 opacity-50'></div>
 
           <div className='w-[70%] text-xs md:text-sm lg:text-lg pr-5 font-light'>
-            <p>Creative and detail-oriented Frontend Engineer with strong 
-              experience building responsive web applications using React, 
-              TypeScript, HTML5, and CSS3. Proven track record delivering 
-              user-centric UIs and admin dashboards as lead frontend developer. 
-              Backed by strong foundations in Python, Data Analysis, and AI through 
-              Harvard's CS50 AI and freelance/web dev work. Skilled in collaborating 
-              with cross-functional teams, practicing Agile workflows, optimizing
-              for performance, and ensuring UX accessibility
+            <p>Front-end engineer with 1.5 years of experience building scalable web applications with React, TypeScript, and modern UI practices. Skilled in component-based architecture, API integration, and creating scalable, maintainable code.
             </p>
             <p className='pt-5'>
               Seeking to contribute to product-driven companies where frontend,
@@ -117,37 +110,36 @@ const Resume = () => {
             <h1 className='pt-10 font-bold'>PROFESSIONAL EXPERIENCE</h1>
 
             <p className='font-semibold py-3'>Lead Frontend Engineer (Freelance)
-               — Kira Admin Panel (2025 - Present)
+               — Sira Admin Panel (2025 - Present)
             </p>
             <ul className='space-y-1 list-disc list-outside px-3'>
               <li>
-                Architected and implemented the admin dashboard UI using 
-                React + TypeScript + Tailwind CSS.
+                I built an admin panel using html, CSS, bootstrap5, JavaScript and Express for the Sira mobile application.
               </li>
               <li>
-                Integrated RESTful APIs, managed state, and improved 
-                page load performance by ~30%
+                I implemented reusable components that reduced front-end development time by 30%. 
               </li>
               <li>
-                Ensured responsive design across devices, enhanced
-                UI consistency across components.
+                I collaborated with a front-end team of 3 developers, providing technical guidance, task assignments, and code reviews, which accelerated feature delivery and improved code quality.
               </li>
               <li>
-                Collaborated with backend engineers, PMs, and UX 
-                designers to translate product requirements into 
-                polished frontend features.
+                With my help as the lead front-end developer, my team and I were able to deliver a responsive, user-friendly admin interface that enabled faster onboarding of new features.
               </li>
             </ul>
 
-            <p className='font-semibold py-3'>Lead Frontend Developer — Kubanetics (2025)</p>
+            <p className='font-semibold py-3'>Lead Frontend Developer — Boscotti (2025)</p>
             <ul className='space-y-1 list-disc list-outside px-3'>
               <li>
-                Designed dashboard layout and full websites in figma, 
-                creating compotents for resuability.
+                I built an e-commerce front-end website using React, showcasing product listing, details page and shopping cart UI which improved user engagement by 25%.
               </li>
               <li>
-                Delivered animations, graphics, product photography
-                 retouching, ensuring brand consistency.
+                I created a search and filter functionality to allow users to easily browse products by category, price, or attributes, reducing product discovery time by 40%.
+              </li>
+              <li>
+                I designed and implemented routing with React Router for seamless navigation between pages.
+              </li>
+              <li>
+                I used Context API for state management to handle cart, user selections, and product data efficiently, reducing state-related bugs by 20%.
               </li>
             </ul>
 
@@ -173,7 +165,7 @@ const Resume = () => {
 
             <ul className='space-y-1 list-disc list-outside px-3 mt-3'>
               <li>
-                Kira Admin Panel — Full-stack product admin dashboard; 
+                Sira Admin Panel — Full-stack product admin dashboard; 
                 featured login/auth, data tables, role-based access, 
                 responsive layouts.
               </li>
@@ -183,7 +175,7 @@ const Resume = () => {
                  mobile-first design.
               </li>
               <li>
-                Food Delivery Concept App — Prototype in Figma + frontend
+                Whatsapp Automation — Prototype in Figma + frontend
                  build using React; mobile-friendly, interactive mockups.
               </li>
             </ul>
