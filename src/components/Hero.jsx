@@ -2,6 +2,11 @@ import React, { useRef } from "react";
 import {motion, useInView} from 'framer-motion';
 import profilephoto from "../assets/profilephoto.png";
 import profilephoto2 from "../assets/profilephoto2.svg";
+import reactpng from "../assets/react.png";
+import php from "../assets/php.png";
+import nodejs from "../assets/node-js.png";
+import vuejs from "../assets/vue-js.png";
+import bootstrap from "../assets/bootstrap.png";
 import Marquee from "./marquee";
 
 
@@ -18,29 +23,29 @@ const Home = () => {
         viewport={{once:true, amount:0.2}}
       >
         <div className="md:flex md:flex-row md:space-x-1.5">
-        <h1 className='text-4xl md:text-7xl lg:text-8xl'>
-          Frontend
-        </h1>
-        <h1 className='text-4xl md:text-7xl lg:text-8xl'>
-          Developer.
-        </h1>
+          <h1 className='text-4xl md:text-7xl lg:text-8xl'>
+            Frontend
+          </h1>
+          <h1 className='text-4xl md:text-7xl lg:text-8xl'>
+            Developer.
+          </h1>
         </div>
       </motion.div>
 
       <motion.div
-        className="px-5 flex flex-col justify-center space-y-9 mt-10 md:flex-row md:space-x-20 md:w-full lg:space-x-30 lg:pt-10"
+        className="px-5 flex flex-col justify-center space-y-9 mt-10 md:flex-row md:space-x-20 md:w-full lg:space-x-10 lg:pt-10"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7, ease: "easeOut" }}
         viewport={{ once: true, amount: 0.2 }}
       >
-        <p className="text-xl text-white font-extralight text-center md:text-left md:max-w-[20ch] md:text-lg lg:text-2xl">
-          I create responsive landing pages, booking systems, and full web & mobile
-          apps that convert
+        <p className="text-xl text-white font-extralight text-center md:text-left md:max-w-[25ch] md:text-lg lg:text-2xl">
+          Frontend Developer focused on building fast, accessible, and scalable user
+          interfaces using modern web technologies.at convert
         </p>
-        <p className="text-xl text-white font-extralight text-center md:text-left md:max-w-[20ch] md:text-lg lg:text-2xl">
-          I create responsive landing pages, booking systems, and full web & mobile
-          apps that convert
+        <p className="text-xl text-white font-extralight text-center md:text-left md:max-w-[25ch] md:text-lg lg:text-2xl">
+          Experienced with React, Tailwind CSS, and modern JavaScript to deliver clean,
+          maintainable, and production-ready code.
         </p>
 
         <div className="flex justify-end pr-5 md:pr-0">
@@ -64,10 +69,27 @@ const Home = () => {
             {/* underline */}
             <span className="absolute left-0 w-28 h-[2px] mt-4 bg-white"></span>
           </button>
-          </div>
+        </div>
       </motion.div>
+      
+      <div className="relative pt-0 mt-10 pr-40 hidden md:block">
+        <img src={profilephoto2} alt="profile" className="h-auto" />
 
-      <img src={profilephoto2} alt="profile" className="h-auto pt-0 mt-10 pr-40 hidden md:block" />
+        <img src={reactpng} alt="react" 
+        className="absolute w-24 h-auto top-10 right-120" />
+
+        <img src={vuejs} alt="react" 
+        className="absolute w-24 h-auto bottom-10 left-50" />
+
+        <img src={bootstrap} alt="react" 
+        className="absolute w-24 h-auto top-20 left-80" />
+
+        <img src={php} alt="react" 
+        className="absolute w-24 h-auto top-3 left-20" />
+
+        <img src={nodejs} alt="react" 
+        className="absolute w-24 h-auto top-40 right-160" />
+      </div>
 
       <motion.div
         ref={ref}
@@ -83,16 +105,11 @@ const Home = () => {
         <Marquee />
       </div>
 
-      <div className="md:px-28 lg:px-40">
+      {/* <div className="md:px-28 lg:px-40">
         <p className="text-white pl-7 font-black  text-3xl mt-8">Trusted by</p>
         <div className="h-20 w-full bg-[#FFFCED] mt-7">
-      </div>
-
-
-      </div>
-
-      
-
+        </div>
+      </div> */}
 
     </div>
 
