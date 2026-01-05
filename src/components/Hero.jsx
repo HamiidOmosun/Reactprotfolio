@@ -7,7 +7,7 @@ import php from "../assets/php.png";
 import nodejs from "../assets/node-js.png";
 import vuejs from "../assets/vue-js.png";
 import bootstrap from "../assets/bootstrap.png";
-import Marquee from "./marquee";
+import Marquee from "./Marquee";
 
 
 const Home = () => {
