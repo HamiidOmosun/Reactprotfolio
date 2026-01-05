@@ -19,8 +19,8 @@ const Contact = () => {
         form.current.reset();
       })
       .catch((error) => {
-  console.error("EmailJS Error:", error);
-  alert(error.text || "Failed to send");
+        console.error(error);
+        alert("Something went wrong. Try again.");
       });
   };
 

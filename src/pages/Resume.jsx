@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar'
 import Contact from '../components/Contact'
 import Footer from '../components/footer'
+import cv from "../assets/cv.pdf"
 
 // src/pages/Portfolio.jsx
 const Resume = () => {
@@ -9,7 +10,10 @@ const Resume = () => {
       < Navbar/>
 
         <div className="flex justify-end pr-5 pt-5 md:pr-28 lg:pr-40">
-          <button className="relative inline-flex items-center gap-2 text-white text-sm md:text-xs leading-none cursor-pointer ">
+          <a
+           href={cv}
+           download="cv.pdf" 
+           className="relative inline-flex items-center gap-2 text-white text-sm md:text-xs leading-none cursor-pointer ">
             <span>DOWNLOAD</span>
             <svg
               className="w-4 h-4 md:w-5 md:h-5"
@@ -28,7 +32,7 @@ const Resume = () => {
 
             {/* underline */}
             <span className="absolute left-0 w-28 h-[2px] mt-4 bg-white"></span>
-          </button>
+          </a>
         </div>
 
 
