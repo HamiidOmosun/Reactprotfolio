@@ -1,6 +1,6 @@
 import Navbar from '../components/Navbar'
 import Contact from '../components/Contact'
-import Footer from '../components/footer'
+import Footer from '../components/Footer'
 import cv from "../assets/cv.pdf"
 
 // src/pages/Portfolio.jsx
