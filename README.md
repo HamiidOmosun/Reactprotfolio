@@ -15,8 +15,8 @@ This is my personal **React Portfolio** website. It showcases my resume, highlig
 
 * **React**
 * **JavaScript (ES6+)**
-* **HTML5 & CSS3**
-* (Optional) Tailwind CSS / Styled Components / Bootstrap
+* **HTML5**
+* **Tailwind CSS**
 
 ## 📂 Project Structure
 
